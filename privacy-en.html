@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — PetPal</title>
+<style>
+  :root {
+    --bg: #FAF6F0; --card: #FFFFFF; --ink: #2B2320; --ink-soft: #6E625B;
+    --accent: #C4643B; --accent-soft: #F6E3D9; --border: #EFE7DE;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1C1815; --card: #262019; --ink: #F2ECE6; --ink-soft: #B5A99F;
+            --accent: #E08B5F; --accent-soft: #3A2A20; --border: #38302A; }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         background: var(--bg); color: var(--ink); line-height: 1.65; padding: 24px; }
+  main { max-width: 720px; margin: 0 auto; background: var(--card);
+         border: 1px solid var(--border); border-radius: 20px; padding: 40px 36px;
+         box-shadow: 0 8px 30px rgba(0,0,0,0.06); }
+  .langs { margin-bottom: 24px; }
+  .langs a { display: inline-block; background: var(--accent-soft); border-radius: 999px;
+             padding: 4px 12px; margin: 2px 4px 2px 0; font-size: 13px;
+             color: var(--accent); text-decoration: none; font-weight: 600; }
+  h1 { font-size: 30px; line-height: 1.25; margin-bottom: 8px; }
+  h2 { font-size: 20px; margin: 30px 0 10px; }
+  h3 { font-size: 16px; margin: 20px 0 8px; }
+  p { margin: 10px 0; }
+  ul { margin: 10px 0 10px 22px; }
+  li { margin: 5px 0; }
+  a { color: var(--accent); }
+  strong { font-weight: 650; }
+  .footer { max-width: 720px; margin: 18px auto 0; font-size: 13px;
+            color: var(--ink-soft); text-align: center; }
+  .footer a { color: var(--ink-soft); }
+</style>
+</head>
+<body>
+<main>
+<p class="langs"><a href="privacy.html">🇫🇷 Français</a> <a href="privacy-de.html">🇩🇪 Deutsch</a> <a href="privacy-es.html">🇪🇸 Español</a> <a href="privacy-it.html">🇮🇹 Italiano</a></p>
+<h1>Privacy Policy — PetPal</h1>
+<p><strong>Version 1.0 — effective July 13, 2026</strong></p>
+<p>PetPal is your care companion for cats and dogs. The principle is simple: your data stays on your phone, except when you use the AI — and when you do, we tell you exactly what leaves, where it goes, and why.</p>
+<h2>The short version</h2>
+<ul>
+<li>Everything you enter in PetPal (profiles, health record, photos, memories, reserve) is stored <strong>only on your phone</strong>. No server keeps this data.</li>
+<li>When you use the AI (breed recognition, the "Should I worry?" triage), the photo or text involved passes through our relay in Europe and then through Anthropic (United States) to generate the answer. <strong>Our servers store none of this content.</strong></li>
+<li>No account, no ads, no trackers, no analytics, zero third-party SDKs.</li>
+<li>Payment for the PetPal+ subscription is handled by Apple: we never see your banking details.</li>
+<li>A random identifier (not Apple's advertising identifier) is used solely to prevent abuse of the AI: 60 calls per day per device.</li>
+<li>You can delete whatever you like right in the app — a memory, a post, or an entire profile with its health record — and the "Erase all my data" button (Settings) resets everything. Deleting the app also erases everything: it's all local.</li>
+</ul>
+<h2>1. Who is responsible?</h2>
+<p>The data controller is <strong>Ayoub Barkia</strong>, an independent developer based in France. Contact: <strong>ayoub.barkia31@gmail.com</strong>. The applicable law is the <strong>GDPR</strong>.</p>
+<h2>2. What stays on your phone</h2>
+<p>All the data you enter is stored <strong>locally</strong>, in the app's private container (a data file plus your photos):</p>
+<ul>
+<li><strong>Your pets' profiles</strong>: name, species, breed, age, weight, sex, neutering status, microchip or passport number, photos.</li>
+<li><strong>Health record</strong>: vaccines, vet visits, weigh-ins, expenses.</li>
+<li><strong>Memories</strong>: photos and captions.</li>
+<li><strong>Your first name</strong>, if you enter it in Settings — it's used only for the "Hello!" on the home screen.</li>
+<li><strong>Emergency reserve, projected costs, streaks, and settings.</strong></li>
+<li><strong>"Community" posts</strong>: despite the word "Post," the community feed is <strong>entirely local</strong>. Your photo, your caption, and your pet's name never leave for any server; no one but you sees them. The other posts in the feed are demo examples built into the app.</li>
+<li><strong>AI-generated results</strong>: the breed portrait (summary, traits, care points) and your scan history (breed, confidence level) are kept locally, attached to the profile.</li>
+</ul>
+<p>The home screen widget uses a small snapshot (pet's name, reduced photo, next due date, reserve), shared only between the app and the widget, always on your phone.</p>
+<p><strong>None of this is sent to any server — with one exception: the data listed in section 3, only when you use the AI.</strong></p>
+<h2>3. What is sent to the AI, and why</h2>
+<p>Two features use an AI. Only the data strictly needed leaves your phone:</p>
+<p><strong>a) Breed recognition.</strong> A downsized version of the photo (768 px, JPEG) and a species hint (cat or dog) are sent. In the breed scanner, sending happens when you tap the analyze button. <strong>During onboarding</strong>, the photo you pick is sent automatically as soon as you select it — an on-screen message lets you know at that moment.</p>
+<p><strong>b) "Should I worry?" triage.</strong> What gets sent: your description, the symptom, its duration, and the pet's context (species, age, breed, neutering status) — but <strong>never their name</strong>. If the AI asks one or two follow-up questions, your answers are sent back to it along with the questions to refine the verdict. One important point: if you check a <strong>serious sign</strong>, the app immediately shows an emergency verdict computed locally, <strong>with no network call at all</strong> — the AI isn't even consulted.</p>
+<p>In both cases, your app's language is added to the request so the answer comes back in your language.</p>
+<p><strong>The data's journey</strong>: your phone → our relay function hosted at <strong>Supabase</strong> (European Union, region eu-west-3, Paris) → <strong>Anthropic PBC</strong> (United States), which runs the Claude AI model and generates the answer.</p>
+<ul>
+<li>Our relay <strong>stores neither the photos nor the texts</strong>: it checks the anti-abuse quota, then passes them along. Only usage counters are recorded (device identifier, date, number of calls).</li>
+<li>As with any internet call, Supabase may keep technical invocation metadata, including your <strong>IP address</strong> (kept for a maximum of 7 days — see section 9). Anthropic, for its part, only sees the outbound IP address of our servers, not yours.</li>
+<li>Sending data to Anthropic constitutes a <strong>transfer of data outside the European Union</strong> (United States). This transfer is safeguarded by the <strong>European Commission's standard contractual clauses</strong> (Art. 46 GDPR), built into Anthropic's data processing agreement. You can read them here: https://www.anthropic.com/legal/data-processing-addendum — or request a copy from us at the contact address (section 14).</li>
+<li>Anthropic processes this data solely to generate the answer: its commercial terms prohibit it from training its models on content sent through its API, except with the customer's explicit consent — consent we have not given. Anthropic automatically deletes requests and responses from its systems within 30 days (longer only if the content is flagged by its anti-abuse systems, or where legally required). Its commercial terms: https://www.anthropic.com/legal/commercial-terms</li>
+</ul>
+<h2>4. The anti-abuse identifier</h2>
+<p>Each device is limited to <strong>60 AI calls per day</strong>. To count these calls, the app generates a <strong>random identifier (UUID)</strong> at the moment of your <strong>first AI call</strong> — if you never use the AI, it doesn't even exist. It then accompanies every AI call.</p>
+<p>This is <strong>not</strong> Apple's advertising identifier (IDFA): no ad tracking, no cross-referencing with other apps, no link to your name or email — we don't know them.</p>
+<h2>5. Subscription and payment</h2>
+<p>The <strong>PetPal+</strong> subscription is managed by <strong>Apple</strong> (App Store / StoreKit). Payment is handled entirely by Apple: we never see your banking details, only the status of your subscription (active or not).</p>
+<h2>6. Notifications</h2>
+<p>All notifications (care reminders, follow-up after a triage, weekly recap) are <strong>scheduled locally</strong> on your phone. No push server. You can turn them off at any time in your iOS settings.</p>
+<h2>7. Sharing</h2>
+<p>When you share a monthly recap or a breed card, it goes through the <strong>iOS share sheet</strong>, only when you choose to. You alone decide what to share, with whom, and through which app.</p>
+<h2>8. What we do NOT do</h2>
+<ul>
+<li>No user accounts.</li>
+<li>No cloud backup of your data — today, everything is local.</li>
+<li>No advertising, no trackers, no analytics.</li>
+<li>No third-party SDKs in the app.</li>
+<li>No geolocation: the emergency buttons simply open Phone or Maps, handled by iOS.</li>
+<li>We never sell or rent your data. To anyone.</li>
+</ul>
+<p>The only permissions requested: <strong>camera</strong> (to take a photo of your pet), <strong>photo library</strong> (to pick one), <strong>notifications</strong> (for reminders).</p>
+<h2>9. How long we keep what</h2>
+<ul>
+<li><strong>Local data</strong>: it stays on your phone for as long as you keep the app. You can delete a memory, a post, or an entire profile (with its health record, memories, and reminders) right in the app, erase everything at once via Settings → "Erase all my data", or simply delete the app — since everything is local, nothing remains.</li>
+<li><strong>Content sent to the AI</strong> (photos, texts): never stored by our servers — it only passes through. Anthropic, which generates the answer, automatically deletes it from its systems within 30 days (up to 2 years only if flagged by its anti-abuse systems, or where legally required — see section 3).</li>
+<li><strong>Usage counters</strong> (random identifier, date, number of calls): kept in pseudonymous form, solely to run the anti-abuse quota, and <strong>automatically purged after 90 days</strong>.</li>
+<li><strong>Technical logs</strong> (invocation metadata at Supabase, including your IP address): kept by Supabase for a maximum of 7 days, then deleted automatically.</li>
+</ul>
+<h2>10. Your rights (GDPR)</h2>
+<p>You have the right to access your data, rectify it, erase it, request that its processing be restricted, object to its processing, and request its portability. Since almost everything lives on your phone, you exercise most of these rights <strong>directly in the app</strong>: edit a pet's profile, delete a memory, a post, or an entire profile (with its full health record), or erase everything at once via Settings → "Erase all my data". You can also simply delete the app (everything is local) — or write to us if you need help.</p>
+<p>The server-side usage counters contain only a random identifier, with no link to your identity — so we can't identify you in them by name. For any request, write to us at <strong>ayoub.barkia31@gmail.com</strong>. You can also lodge a complaint with the <strong>CNIL</strong> (www.cnil.fr), the French data protection authority.</p>
+<h2>11. Minors</h2>
+<p>PetPal isn't specifically aimed at children and doesn't knowingly collect data from minors. If you're a parent or guardian and believe a minor has sent us data through the AI features, please contact us.</p>
+<h2>12. Legal bases</h2>
+<ul>
+<li><strong>Performance of the service you request</strong> (Art. 6(1)(b) GDPR): processing of photos and texts by the AI when you use breed recognition or the triage, and management of your subscription.</li>
+<li><strong>Legitimate interest</strong> (Art. 6(1)(f) GDPR): anti-abuse counters (AI call quota) and our providers' technical logs (including the IP address at Supabase), to protect the service against excessive use and to keep it secure and running smoothly.</li>
+</ul>
+<h2>13. Changes to this policy</h2>
+<p>If this policy changes (a new feature, a new processor…), we'll update this page, its effective date, and its version number. The applicable version is always the latest one published here.</p>
+<h2>14. Contact</h2>
+<p>A question about your data?</p>
+<p><strong>Ayoub Barkia</strong> — developer of PetPal</p>
+<p><strong>ayoub.barkia31@gmail.com</strong></p>
+</main>
+<p class="footer"><a href="index.html">PetPal</a> 🐾</p>
+</body>
+</html>
